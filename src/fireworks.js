@@ -194,3 +194,4 @@ class Fireworks extends React.Component {
 export default Fireworks
 
 /* eslint no-restricted-globals: "off" */
+/* eslint no-loop-func: "off" */
