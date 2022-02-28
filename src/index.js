@@ -12,13 +12,14 @@ const inCodeSandbox = location.href.includes('codesandbox.io')
 const getWords = () =>
   shuffle([
     // always have these words
-    'becca',
-    'nathan',
-    'adam',
-    'michael',
-    'mom',
-    'dad',
-    'dodds',
+    'jonathan',
+    'earl',
+    'mommy',
+    'julie',
+    'daddy',
+    'robin',
+    'zhou',
+    'ting',
     'love',
     'family',
     ...shuffle(
@@ -45,6 +46,8 @@ const getWords = () =>
         'snake',
         'shark',
         'cow',
+        'bus',
+        'school',
       ],
     ).slice(0, 8),
   ])
